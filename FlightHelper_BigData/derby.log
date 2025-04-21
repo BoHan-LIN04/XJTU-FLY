@@ -1,0 +1,16 @@
+----------------------------------------------------------------
+Wed Mar 12 21:12:03 CST 2025:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0195-8a7b-56a1-00000efa2030 
+on database directory memory:/Users/xuezhihengg/Projects/plane_helper_bigdata/1d418bd0-773f-4d8c-845c-d2e74dac3dc8 with class loader sun.misc.Launcher$AppClassLoader@18b4aac2 
+Loaded from file:/Users/xuezhihengg/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_411-b09
+user.dir=/Users/xuezhihengg/Projects/plane_helper_bigdata
+os.name=Mac OS X
+os.arch=aarch64
+os.version=14.5
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Mar 12 21:13:42 CST 2025:
+Shutting down instance a816c00e-0195-8a7b-56a1-00000efa2030 on database directory memory:/Users/xuezhihengg/Projects/plane_helper_bigdata/1d418bd0-773f-4d8c-845c-d2e74dac3dc8 with class loader sun.misc.Launcher$AppClassLoader@18b4aac2 

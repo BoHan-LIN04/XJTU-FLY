@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.plane_helper.plane_helper.dao.UserMapper">
+    <select id="selectById" resultType="org.plane_helper.plane_helper.model.User">
+        SELECT * FROM user WHERE user_id = #{id}
+    </select>
+</mapper>

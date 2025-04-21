@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!-- 定义日志级别 -->
+    <logger name="org.apache.spark" level="warn"/>
+    <logger name="org.spark-project" level="warn"/>
+    <logger name="org.apache.hadoop" level="warn"/>
+    <logger name="org.apache.parquet" level="warn"/>
+    <logger name="org.apache.orc" level="warn"/>
+    <logger name="org.apache.hadoop.hive" level="warn"/>
+
+    <!-- 定义 STDOUT appender -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+
+    <!-- 根日志级别 -->
+    <root level="info">
+        <appender-ref ref="STDOUT"/>
+    </root>
+</configuration>
